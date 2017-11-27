@@ -1,0 +1,49 @@
+{
+  "name": "egg-passport-oauth2",
+  "version": "1.0.0",
+  "description": "Oauth 2.0 authentication strategy for egg",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xuhao/egg-passport-oauth2.git"
+  },
+  "keywords": [
+    "oauth2",
+    "passport",
+    "eggjs",
+    "egg-passport-oauth2"
+  ],
+  "author": "Xuhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xuhao/egg-passport-oauth2/issues"
+  },
+  "homepage": "https://github.com/Xuhao/egg-passport-oauth2#readme",
+  "eggPlugin": {
+    "name": "passportOauth2",
+    "dependencies": [
+      "passport"
+    ]
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "passport-oauth2": "^1.4.0"
+  },
+  "devDependencies": {
+    "egg": "^2.0.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.13.1",
+    "egg-passport": "^2.0.0",
+    "eslint": "^4.12.0",
+    "eslint-config-egg": "^5.1.1",
+    "supertest": "^3.0.0"
+  }
+}
