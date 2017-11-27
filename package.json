@@ -1,8 +1,14 @@
 {
   "name": "egg-passport-oauth2",
   "version": "1.0.0",
-  "description": "Oauth 2.0 authentication strategy for egg",
-  "main": "index.js",
+  "description": "Oauth 2.0 authentication strategy for eggjs",
+  "files": [
+    "app.js",
+    "config"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
@@ -20,8 +26,8 @@
     "eggjs",
     "egg-passport-oauth2"
   ],
-  "author": "Xuhao",
-  "license": "ISC",
+  "author": "Xuhao <xuhao@rubyfans.com> (http://rubyfans.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Xuhao/egg-passport-oauth2/issues"
   },

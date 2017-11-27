@@ -8,7 +8,7 @@
 [travis-image]: https://img.shields.io/travis/Xuhao/egg-passport-oauth2.svg?style=flat-square
 [travis-url]: https://travis-ci.org/Xuhao/egg-passport-oauth2
 
-General-purpose OAuth 2.0 authentication strategy for eggjs, based on [passport-oauth2](https://github.com/jaredhanson/passport-oauth2)
+General-purpose OAuth 2.0 authentication strategy for [eggjs](https://github.com/eggjs/egg), based on [passport-oauth2](https://github.com/jaredhanson/passport-oauth2).
 
 ## Install
 
