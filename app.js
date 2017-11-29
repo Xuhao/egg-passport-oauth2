@@ -17,7 +17,7 @@ module.exports = app => {
   const provider = config.provider || 'oauth2';
 
   // must require `req` params
-  app.passport.use(provider, new Strategy(config, (req, token, tokenSecret, params, profile, done) => {
+  app.passport.use('oauth2', new Strategy(config, (req, token, tokenSecret, params, profile, done) => {
     // format user
     const user = {
       provider,
