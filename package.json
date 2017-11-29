@@ -1,6 +1,6 @@
 {
   "name": "egg-passport-oauth2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Oauth 2.0 authentication strategy for eggjs",
   "files": [
     "app.js",
